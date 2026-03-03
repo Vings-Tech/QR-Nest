@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
                                 <img
                                     src="/favicon.png"
                                     alt="QRNest Logo"
-                                    className="h-10 w-auto object-contain grayscale brightness-0 dark:invert transition-all duration-500"
+                                    className="h-10 w-auto object-contain transition-all duration-500"
                                 />
                             </div>
                             <h2 className="text-xl font-black tracking-tight text-slate-800 dark:text-white uppercase">
@@ -38,7 +38,7 @@ const Footer: React.FC = () => {
 
                         <div className="flex items-center justify-center md:justify-end gap-3 sm:gap-4 w-full md:w-auto">
                             <a
-                                href="https://www.instagram.com/mr_khalifa_imran/?hl=en"
+                                href="https://www.instagram.com/vingstech.in/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex-1 md:flex-none group flex items-center justify-center gap-2 px-4 py-3 bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-2xl text-slate-600 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition-all shadow-sm hover:shadow-indigo-500/10"
@@ -49,7 +49,7 @@ const Footer: React.FC = () => {
                             </a>
 
                             <a
-                                href="https://wa.me/+919363001680"
+                                href="https://wa.me/+918778264166"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex-1 md:flex-none group flex items-center justify-center gap-2 px-4 py-3 bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-2xl text-slate-600 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition-all shadow-sm hover:shadow-indigo-500/10"
@@ -62,10 +62,26 @@ const Footer: React.FC = () => {
                     </div>
                 </div>
 
-                <div className="mt-12 pt-8 border-t border-slate-100 dark:border-slate-800/50 flex flex-col sm:flex-row justify-center items-center gap-4">
-                    <p className="text-xs font-medium text-slate-400 dark:text-slate-500 text-center">
+                <div className="mt-12 pt-8 border-t border-slate-100 dark:border-slate-800/50 
+flex flex-col sm:flex-row justify-between items-center gap-4">
+
+                    {/* Left Side */}
+                    <p className="text-xs font-medium text-slate-400 dark:text-slate-500 text-center sm:text-left">
                         © {new Date().getFullYear()} QRNest. Crafted with passion.
                     </p>
+
+                    {/* Right Side */}
+                    <div className="flex-shrink-0 transition-all duration-300 group-hover:scale-110">
+                        <img
+                            src="/favicon.png"
+                            alt="QRNest Logo"
+                            className="h-10 w-auto object-contain transition-all duration-500"
+                        />
+                    </div>
+                    <p className="text-xs font-medium text-slate-400 dark:text-slate-500 text-center sm:text-right">
+                        Powered by Vings Tech Projects
+                    </p>
+
                 </div>
             </div>
         </footer>
