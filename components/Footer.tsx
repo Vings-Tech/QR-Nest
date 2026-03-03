@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
                         <div className="flex items-center gap-3 group">
                             <div className="flex-shrink-0 transition-all duration-300 group-hover:scale-110">
                                 <img
-                                    src="/favicon.png"
+                                    src="/icon.png"
                                     alt="QRNest Logo"
                                     className="h-10 w-auto object-contain transition-all duration-500"
                                 />
@@ -73,7 +73,7 @@ flex flex-col sm:flex-row justify-between items-center gap-4">
                     {/* Right Side */}
                     <div className="flex-shrink-0 transition-all duration-300 group-hover:scale-110">
                         <img
-                            src="/favicon.png"
+                            src="/icon.png"
                             alt="QRNest Logo"
                             className="h-10 w-auto object-contain transition-all duration-500"
                         />
